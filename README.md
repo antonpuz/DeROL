@@ -5,8 +5,8 @@ This repository contains the DeROL framework code, as presented in "Deep Reinfor
 ## Special Notes
 * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 * Any code/data piece supplementary to this repository **must** be used in accordance to its own license
-* [`datasets`] has the instructions for obtaining the datasets
-* If this code was used in your research please cite our paper: [“BibTeX”](https://github.com/antonpuz/DeROL#please-cite-our-paper)
+* [`datasets`](datasets) has the instructions for obtaining the datasets
+* If this code was used in your research please cite our paper: [BibTeX](https://github.com/antonpuz/DeROL#please-cite-our-paper)
 
 ## Requirements
 * We ran the code on Ubuntu 16.04.4 LTS but it should be easily used in MacOS, using Windows would require fixing all the paths in "train_derol.py"
@@ -33,15 +33,15 @@ DelayClassification: holds samples marked to be delayed by the policy
 ExperimentLogger: holds {sample, action, reward, future_reward} tuples, used later for training.
 
 ## Please Cite Our Paper
-@ARTICLE{__,
-	author  = {A. Puzanov and K. Cohen},
-	journal = {IEEE Journal on Selected Areas in Communications},
-	title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
-	year 	= {2018},
-	volume 	= {__},
-	number 	= {__},
-	pages 	= {__-__},
-	doi 	= {__},
-	ISSN 	= {__},
-	month 	= {__},
-}
+    @ARTICLE{__,
+        author  = {A. Puzanov and K. Cohen},
+        journal = {IEEE Journal on Selected Areas in Communications},
+        title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
+        year 	= {2018},
+        volume 	= {__},
+        number 	= {__},
+        pages 	= {__-__},
+        doi 	= {__},
+        ISSN 	= {__},
+        month 	= {__},
+    }
