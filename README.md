@@ -35,7 +35,7 @@ ExperimentLogger: holds {sample, action, reward, future_reward} tuples, used lat
 ## Please Cite Our Paper
     @ARTICLE{__,
         author  = {Puzanv Anton and Cohen Kobi},
-        journal = {submitted to IEEE Journal on Selected Areas in Communications, preliminary version is available at arXiv},
+        journal = {submitted to IEEE Journal on Selected Areas in Communications, preliminary version is available at arXiv.},
         title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
         year 	= {2018},
         volume 	= {__},
