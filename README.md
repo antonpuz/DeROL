@@ -4,7 +4,7 @@ This repository contains the DeROL framework code, as presented in "Deep Reinfor
 
 ## Special Notes
 * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-* Any code/data piece supplementary to this repository **must** be used in accordance to its own license
+* Any code/data piece supplementary to this repository **must** be used in accordance to its own license and terms
 * [`datasets`](datasets) has the instructions for obtaining the datasets
 * If this code was used in your research please cite our paper: [BibTeX](https://github.com/antonpuz/DeROL#please-cite-our-paper)
 
@@ -34,8 +34,8 @@ ExperimentLogger: holds {sample, action, reward, future_reward} tuples, used lat
 
 ## Please Cite Our Paper
     @ARTICLE{__,
-        author  = {A. Puzanov and K. Cohen},
-        journal = {IEEE Journal on Selected Areas in Communications},
+        author  = {Puzanv Anton and Cohen Kobi},
+        journal = {submitted to IEEE Journal on Selected Areas in Communications, preliminary version is available at arXiv},
         title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
         year 	= {2018},
         volume 	= {__},
