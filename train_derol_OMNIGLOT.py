@@ -62,7 +62,7 @@ def benchmark(argv):
 
         # try to load a saved model
         model_loader = tf.train.Saver()
-        current_model_folder = "./models/backup/model-" + experiment_name
+        current_model_folder = "./trained_models/backup/model-" + experiment_name
         if (os.path.exists(current_model_folder)):
             print("Loading pre calculaated model")
             model_loader.restore(sess, current_model_folder + "/model.ckpt")
