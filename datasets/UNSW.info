@@ -1,0 +1,26 @@
+# This document holds instructions for downloading and creating UNBW-NB15 sample dataset
+This dataset **must** be used in accordance to its own license and terms
+information taken from: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
+
+The details of the UNSW-NB15 data set are published in following the papers:
+    Moustafa, Nour, and Jill Slay. "UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set)."Military Communications and Information Systems Conference (MilCIS), 2015. IEEE, 2015.
+    Moustafa, Nour, and Jill Slay. "The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set." Information Security Journal: A Global Perspective (2016): 1-14.
+
+
+## General Information
+This dataset contains network session summary records
+The raw network packets of the UNSW-NB 15 data set was created by the IXIA PerfectStorm tool in the Cyber Range Lab of the Australian Centre for Cyber Security (ACCS) for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours.
+
+## Download
+1. Go to: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
+2. Download any .csv files you wish to work with, UNSW-NB15_2.csv, UNSW-NB15_3.csv were used in this study
+
+## Folder Structure Preparation
+1. Column 45 (for excel - AV) has the attack name or blank for normal behavior - will be reffered as "Record Category"
+2. Partition the file by record category, with the following rules
+    a. file names start with capital letter, normal records is called "Normal"
+    b. files for train should be called <category>_UNSW.csv - example Generic_UNSW.csv
+    c. files for test should be called <category>test__UNSW.csv - example Shellcode_test_UNSW.csv
+    d. all categorical and time columns (1,2,3,4,5,6,14,21,22,45,46) should be deleted
+    e. files should not contain any headers
+3. Pass the parent directory with all the files when running the algorithm

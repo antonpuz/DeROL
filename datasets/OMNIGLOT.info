@@ -1,0 +1,15 @@
+# This document holds instructions for downloading and creating OMNIGLOT sample dataset
+This dataset **must** be used in accordance to its own license and terms
+information taken from: https://github.com/brendenlake/omniglot
+original paper: http://science.sciencemag.org/content/350/6266/1332
+
+## General Information
+This dataset contains 1623 different handwritten characters from 50 different alphabets.
+Each of the 1623 characters was drawn online via Amazon's Mechanical Turk by 20 different people
+
+## Download
+1. Go to: https://github.com/brendenlake/omniglot/tree/master/python
+2. Download any one of the zip files
+
+## Folder Structure Preparation
+1. Extract the zip files and pass the parent directory when running the algorithm
