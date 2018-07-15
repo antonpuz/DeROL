@@ -55,9 +55,6 @@ class ExperimentLogger:
         if update == True:
             self.advance_state()
 
-
-
-
     def create_batch(self, batch_size):
         if len(self.experience_buffer) < batch_size:
             raise ValueError('Not enough stored batches in experience creator, requested {}, currently buffer of size {}'.format(batch_size, len(self.experience_buffer)))
