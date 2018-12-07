@@ -1,7 +1,9 @@
 # Deep Reinforcement One-Shot Learning (DeROL) Classification Framework
 
-This repository contains the DeROL framework code, as presented in "Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems"
+This repository contains the DeROL framework code, as presented in "Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems".
 The paper has been uploaded to arXiv (identifier 1808.01527) and is accessible from: http://arxiv.org/abs/1808.01527
+
+If this code was used in your research please cite our paper: [BibTeX](https://github.com/antonpuz/DeROL#please-cite-our-paper)
 
 
 
@@ -9,7 +11,6 @@ The paper has been uploaded to arXiv (identifier 1808.01527) and is accessible f
 * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 * Any code/data piece supplementary to this repository **must** be used in accordance to its own license and terms
 * [`datasets`](datasets) has the instructions for obtaining the datasets
-* If this code was used in your research please cite our paper: [BibTeX](https://github.com/antonpuz/DeROL#please-cite-our-paper)
 
 ## Requirements
 * We ran the code on Ubuntu 16.04.4 LTS but it should be easily used in MacOS, using Windows would require fixing all the paths in "train_derol.py"
