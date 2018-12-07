@@ -1,7 +1,6 @@
 # Deep Reinforcement One-Shot Learning (DeROL) Classification Framework
 
-This repository contains the DeROL framework code, as presented in "Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems" [link will be added here]
-
+This repository contains the DeROL framework code, as presented in "Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems"
 The paper has been uploaded to arXiv (identifier 1808.01527) and is accessible from: http://arxiv.org/abs/1808.01527
 
 
@@ -17,7 +16,7 @@ The paper has been uploaded to arXiv (identifier 1808.01527) and is accessible f
 * We used Python 2.7.12 with the following packages: tensorflow, numpy, scipy, sklearn
 
 ## Intoduction
-In recent years there has been a sharp rise in networking applications, in which significant events need to be classified but only a few training instances are available. These are known as cases of one-shot learning. Examples include analyzing network traffic under zero-day attacks, and computer vision tasks by sensor networks deployed in the field. To handle this challenging task, organizations often use human analysts to classify events under high uncertainty. Existing algorithms use a threshold-based mechanism to decide whether to classify an object automatically or send it to an analyst for deeper inspection. However, this approach leads to a significant waste of resources since it does not take the practical temporal constraints of system resources into account. Our contribution is threefold. First, we develop a novel Deep Reinforcement One-shot Learning (DeROL) framework to address this challenge. The basic idea of the DeROL algorithm is to train a deep-Q network to obtain a policy which is oblivious to the unseen classes in the testing data. Then, in real-time, DeROL maps the current state of the one- shot learning process to operational actions based on the trained deep-Q network, to maximize the objective function. Second, we develop the first open-source software for practical artificially intelligent one-shot classification systems with limited resources for the benefit of researchers and developers in related fields. Third, we present an extensive experimental study using the OMNIGLOT dataset for computer vision tasks and the UNSW- NB15 dataset for intrusion detection tasks that demonstrates the versatility and efficiency of the DeROL framework.
+In recent years there has been a sharp rise in applications, in which significant events need to be classified but only a few training instances are available. These are known as cases of one-shot learning. Examples from different disciplines include surveillance and security, environmental monitoring, and patient monitoring. To handle this challenging task, organizations often use human analysts to classify events under high uncertainty. Existing algorithms use a threshold-based mechanism to decide whether to classify an object automatically or send it to an analyst for deeper inspection. However, this approach leads to a significant waste of resources since it does not take the practical temporal constraints of system resources into account. Our contribution is threefold. First, we develop a novel Deep Reinforcement One-shot Learning (DeROL) framework to address this challenge. The basic idea of the DeROL algorithm is to train a deep-Q network to obtain a policy which is oblivious to the unseen classes in the testing data. Then, in real-time, DeROL maps the current state of the one-shot learning process to operational actions based on the trained deep-Q network, to maximize the objective function. Second, we develop the first open-source software for practical artificially intelligent oneshot classification systems with limited resources for the benefit of researchers and developers in related disciplines. Third, we present an extensive experimental study using the OMNIGLOT dataset for computer vision tasks and the UNSW-NB15 dataset for intrusion detection tasks that demonstrates the versatility and efficiency of the DeROL framework.
 
 ## Modules
 * **rl_agents**: Has implementation of the policies, the policy is the conductor and the heart of our framework, we used Deep Reinforcement Learning policy,
@@ -39,7 +38,7 @@ ExperimentLogger: holds {sample, action, reward, future_reward} tuples, used lat
 ## Please Cite Our Paper
     @ARTICLE{__,
         author  = {Puzanov Anton and Cohen Kobi},
-        journal = {submitted to IEEE Journal on Selected Areas in Communications, preliminary version is available at arXiv},
+        journal = {Preliminary version is available at arXiv},
         title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
         year 	= {2018},
         volume 	= {__},
