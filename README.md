@@ -37,15 +37,12 @@ DelayClassification: holds samples marked to be delayed by the policy
 ExperimentLogger: holds {sample, action, reward, future_reward} tuples, used later for training.
 
 ## Please Cite Our Paper
-    @ARTICLE{__,
-        author  = {Puzanov Anton and Cohen Kobi},
-        journal = {Preliminary version is available at arXiv},
-        title   = {Deep Reinforcement One-Shot Learning for Artificially Intelligent Classification Systems},
-        year 	= {2018},
-        volume 	= {__},
-        number 	= {__},
-        pages 	= {__-__},
-        doi 	= {__},
-        ISSN 	= {__},
-        month 	= {__},
+    @article{puzanov2020deep,
+          title={Deep reinforcement one-shot learning for artificially intelligent classification in expert aided systems},
+          author={Puzanov, Anton and Zhang, Senyang and Cohen, Kobi},
+          journal={Engineering Applications of Artificial Intelligence},
+          volume={91},
+          pages={103589},
+          year={2020},
+          publisher={Elsevier}
     }
